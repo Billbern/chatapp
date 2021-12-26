@@ -1,0 +1,44 @@
+QLabel#PageTitle{
+    font-size: 24px; 
+    font-weight: 600;
+}
+
+QLineEdit{
+    width: 280px;
+    padding: 8px 4px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    
+}
+
+QLineEdit#searchBox{
+    color: #bfbfbf; 
+    background-color: #313c48; 
+    border-radius: 4px; 
+    padding: 4px 0 4px 8px;
+    margin-bottom: 0;
+}
+
+QPushButton#LoginBtn, QPushButton#SignupBtn{
+    background-color: #22a6f1;
+    font-weight: 600;
+    width: 116px;
+    height: 18px;
+    color: #fff;
+}
+
+QPushButton#bottomButton{
+    border: none;
+    color: #22a6f1;
+    background-color: transparent;
+}
+
+QPushButton#menuButton, QListWidget#userList, QListWidget#listBox{
+    border: none;
+}
+
+
+#bottomButton, #bottomLabel{
+    margin-bottom: 128px;
+    margin-top: 16px;
+}
